@@ -25,7 +25,7 @@
 
 .imagem-loja img{
     width: 28%;
-    min-width: 200px;
+    min-width: 170px;
 }
 
 
@@ -96,7 +96,7 @@
     border: none;
 }
 
-.section-5 .tela-1 button:hover, .section-5 .tela-2 button:hover{
+.section-5 .tela-1 .bb1:hover, .section-5 .tela-2 p .bb1:hover{
     width: 200px;
     height: 32px;
     cursor: pointer;
@@ -132,9 +132,19 @@
     margin-top: 20px;
 }
 
+.tela-1 .buttons-logar button:hover, .tela-2 .buttons-logar button:hover{
+  width: 150px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
     .tela-1, .tela-2{
         width: 100%;
+    }
+
+    .tela-1 .buttons-logar button, .tela-2 .buttons-logar button{
+      width: 140px;
+      font-size: 17px;
     }
 }
 
