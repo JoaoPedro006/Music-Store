@@ -1,0 +1,88 @@
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(25, 25, 25, 0.361);
+}
+
+.ajuste-sec {
+  background-image: url("../images/foto-1.jpg");
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.h1 {
+  display: flex;
+  text-align: left;
+  font-size: 30px;
+  color: orangered;
+  margin-top: -30px;
+  z-index: 99999;
+}
+
+.h3 {
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 37px;
+  color: antiquewhite;
+  z-index: 99999;
+  text-align: center;
+  margin-top: -30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.h3 h5{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 730px){
+  .h1{
+      padding-right: 0;
+  }
+}
+
+/* Section-2 */
+
+.section-2 {
+  width: 100%;
+  padding-block: 30px;
+  background-color: rgb(248, 249, 250);
+}
+
+.section-2 .marcas-pai {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  min-width: 400px;
+}
+
+.section-2 .marcas-pai img {
+  width: 100px;
+}
+
+.section-2 .marcas-pai h2{
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
