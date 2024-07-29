@@ -50,6 +50,12 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width:864px){
+  .section-1{
+    height: 40vh;
+  }
+}
+
 
 @media screen and (max-width: 730px){
   .h1{

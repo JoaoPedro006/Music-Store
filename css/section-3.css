@@ -93,13 +93,12 @@
 }
 
 .box {
-  width: 38%;
-  min-width: 330px;
+  width: 430px;
   height: 240px;
   border-radius: 40px;
   display: flex;
   align-items: center;
-  background-color: rgba(16, 15, 15, 0.836);
+  background-color: rgba(33, 31, 31, 0.836);
   margin-inline: 5px;
 }
 
@@ -156,4 +155,22 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:1064px){
+  .box-imagens{
+    justify-content: center;
+  }
 
+  .box{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:634px){
+
+  .box-imagens{
+    width: 100%;
+  }
+  .box{
+    width: 95%;
+  }
+}
