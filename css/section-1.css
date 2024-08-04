@@ -62,7 +62,7 @@
   }
 
   .section-2 .marcas-pai h2{
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
@@ -70,6 +70,11 @@
 @media screen and (max-width: 730px){
   .h1{
       padding-right: 0;
+  }
+
+  
+  .img-sec1{
+    width: 300px;
   }
 }
 
@@ -95,9 +100,25 @@
 }
 
 .section-2 .marcas-pai h2{
-  font-size: 32px;
+  font-size: 29px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+@media screen and (max-width:864px){
+  .section-1{
+    height: 55vh;
+  }
+
+  .section-2 .marcas-pai{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+
+  .section-2 .marcas-pai h2{
+    font-size: 20px;
+  }
 }

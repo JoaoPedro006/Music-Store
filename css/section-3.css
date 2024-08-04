@@ -171,6 +171,10 @@
     width: 100%;
   }
   .box{
-    width: 95%;
+    width: 90%;
+  }
+
+  .box-texto{
+    margin-right: 6px;
   }
 }
